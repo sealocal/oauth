@@ -1,0 +1,31 @@
+{
+  "name": "oauth",
+  "version": "1.0.0",
+  "description": "api and web interface for oauth",
+  "main": "index.js",
+  "scripts": {
+    "server": "npm run start --prefix api",
+    "client": "npm run start --prefix web",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sealocal/oauth.git"
+  },
+  "keywords": [
+    "oauth",
+    "example",
+    "social",
+    "login"
+  ],
+  "author": "sealocal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sealocal/oauth/issues"
+  },
+  "homepage": "https://github.com/sealocal/oauth#readme",
+  "dependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
